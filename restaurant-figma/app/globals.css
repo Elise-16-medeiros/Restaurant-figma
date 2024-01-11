@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply font-title 
+    }
+}
+
+@layer components {
+    .btn-type-one {
+        @apply text-[#E1B168] text-center text-[22px] tracking-wide border-[#E1B168]
+    }
+}
