@@ -10,7 +10,11 @@
 }
 
 @layer components {
-    .btn-type-one {
-        @apply text-[#E1B168] text-center text-[22px] tracking-wide border-[#E1B168]
+    .link-custom-one {
+        @apply px-2 py-1 text-[#E1B168] text-center text-sm tracking-wide border-[#E1B168]  border-2 rounded hover:bg-[#E1B168] hover:text-[#292E36] transition duration-150
+    }
+
+    .link-custom-two {
+        @apply px-6  py-1 text-sm text-center capitalize text-[#292E36]  tracking-widest bg-[#E1B168] border-[#E1B168]  border-2 rounded hover:bg-[#292E36] hover:text-[#E1B168] transition duration-150
     }
 }
