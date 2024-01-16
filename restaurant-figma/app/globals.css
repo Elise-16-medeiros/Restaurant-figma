@@ -5,7 +5,7 @@
 
 @layer base {
   h1 {
-    @apply font-title
+    @apply font-title 
   }
 }
 

@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { HiXMark, HiBars3 } from "react-icons/hi2";
+import { HiXMark } from "react-icons/hi2";
+import { BiMenuAltRight } from "react-icons/bi";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { linksData } from "@/app/data";
 
@@ -23,7 +24,7 @@ function Navbar() {
             </Link>
           ))}
 
-          {/* Add more links as needed */}
+          
         </div>
         <div className="text-white flex gap-3">
           <FaFacebook className="w-[24px] h-[23px] cursor-pointer hover:text-[#E1B168]" />
@@ -35,11 +36,11 @@ function Navbar() {
             {isOpen ? (
               <HiXMark className="h-8 w-8 cursor-pointer" />
             ) : (
-              <HiBars3 className="h-8 w-8" />
+              <BiMenuAltRight className="h-8 w-8" />
             )}
           </button>
           {isOpen && (
-            <div className="flex flex-col justify-start items-start gap-2 mt-2">
+            <div className=" w-32 h-80 absolute gap-6 right-10 rounded-xl flex flex-col justify-center items-center bg-[#343942] transition-all duration-300">
               {linksData.map((link) => (
                 <Link
                   className="navbar-links"
@@ -60,11 +61,3 @@ function Navbar() {
 
 export default Navbar;
 
-/* 
-<HiXMark />
-<HiBars3 />
-FaFacebook
-<FaFacebook />
-FaInstagram
-<FaInstagram />
-*/
