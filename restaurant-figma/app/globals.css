@@ -4,9 +4,12 @@
 
 
 @layer base {
-  h1 {
+  h1, h2, h3 {
     @apply font-title 
   }
+
+
+
 }
 
 @layer components {}
