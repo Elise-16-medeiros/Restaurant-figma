@@ -10,10 +10,10 @@ function Hero() {
     <section className=" bg-[#292E36] text-white pb-8 pt-8">
       <div className="flex flex-col justify-between items-center gap-16 md:flex-row">
         <div className="flex flex-col justify-center items-start md: ml-10">
-          <div className="">
+          
             <h2 className="text-xl tracking-wide md:text-[30px]">{pretitle}</h2>
             <h1 className="text-[3.5rem] leading-[3rem] tracking-wide md:text-[100px] md:leading-[110px]">{title}</h1>
-          </div>
+         
 
           <div className="flex flex-col justify-center items-start">
           <span className="text-sm tracking-wide leading-[30px]">We use only the finest local ingredients available</span>
@@ -25,7 +25,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="w-[20rem] h-[95%] overflow-hidden rounded-t-[15rem] border-8 border-[#343942] md:w-[30rem] md:h-[100%] md:mr-10">
+      <div className="w-[20rem] h-[95%] overflow-hidden rounded-t-[15rem] border-8 border-[#343942] md:w-[30rem] md:h-[100%] md:mr-10">
           <Image src={heroImage} alt="hero image" />
         </div>
       </div>
