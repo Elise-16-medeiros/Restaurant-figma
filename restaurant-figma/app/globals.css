@@ -24,7 +24,7 @@
   }
 
   .navbar-links {
-    @apply text-white text-base font-normal tracking-wide hover:text-[#E1B168] transition-all
+    @apply text-white text-base font-normal tracking-wide hover:text-[#E1B168] duration-300 hover:scale-[1.03]
   }
-
+  
 }

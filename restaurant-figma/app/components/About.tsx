@@ -7,13 +7,13 @@ function About() {
   return (
     <>
       <Vector />
-      <section className="bg-[#FFF8F5] w-full h-[728px] pt-5">
+      <section className="bg-[#FFF8F5] w-full h-[728px] pt-5 md:h-[428px]">
         <div className="px-5 flex flex-col-reverse justify-center items-center gap-10 md:flex-row">
           <div className="col-span-2">
             <Image className="container" src={aboutImg} alt="restaurant" />
           </div>
           <div>
-            <h2 className="text-xl tracking-wide font-bold pb-3">About Us</h2>
+            <h2 className="text-xl tracking-wide font-bold pb-3">Botticelli Italian Restaurant</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
               quam libero accusamus quasi quas harum! Lorem, ipsum dolor sit
@@ -36,11 +36,11 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className="w-[230px] pt-10">
+           {/*  <div className="w-[230px] pt-10">
               <Link className="link-custom-two" href="#">
                 more about us
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
