@@ -6,7 +6,7 @@ import ModalOfPizza from "./modals/ModalOfPizza";
 
 function SectionModals() {
   return (
-    <section className="bg-[#292E36] h-[306px] p-5">
+    <section className="bg-[#292E36] h-[316px] p-5 mt-24">
       <div className="before:content[''] before:border-2 before:absolute before:w-[80px] before:border-[#E1B168] after:content-[''] after:border-2 after:w-[80px] after:border-[#E1B168] after:absolute">
         <h2 className="py-1 tracking-wide font-bold text-white">Our Menu</h2>
       </div>

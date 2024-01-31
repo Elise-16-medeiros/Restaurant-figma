@@ -1,6 +1,7 @@
 
 import About from "./components/About";
 import ContainerImg from "./components/ContainerImg";
+import Events from "./components/Events";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Kitchen from "./components/Kitchen";
@@ -20,7 +21,7 @@ export default function Home() {
         <Kitchen />
         <SectionModals />
         <ContainerImg />
-        
+        <Events />
       </main>
     </>
   );
