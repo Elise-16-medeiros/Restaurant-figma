@@ -4,8 +4,8 @@ import Img from "@/public/kitchen.jpg";
 function Kitchen() {
   return (
     <section className="h-[906px] mt-20 px-5 md:h-[750px]">
-      <div className="before:content[''] before:border-2 before:absolute before:w-[93px] before:border-[#E1B168] after:content-[''] after:border-2 after:w-[93px] after:border-[#E1B168] after:absolute">
-        <h2 className="py-1 tracking-wide font-bold">Our Kitchen</h2>
+      <div className="before:content[''] before:border-2 before:absolute before:w-[118px] before:border-[#E1B168] after:content-[''] after:border-2 after:w-[118px] after:border-[#E1B168] after:absolute">
+        <h2 className="py-1 tracking-wide uppercase">Our Kitchen</h2>
         </div>
 
       <div className="flex flex-col-reverse justify-center items-center gap-10 mt-5 md:flex-row">

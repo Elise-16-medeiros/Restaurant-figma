@@ -45,8 +45,8 @@ function Events() {
 
   return (
     <section className="w-full h-64 p-5 mt-24">
-      <div className="before:content[''] before:border-2 before:absolute before:w-[138px] before:border-[#E1B168] after:content-[''] after:border-2 after:w-[138px] after:border-[#E1B168] after:absolute">
-        <h2 className="py-1 tracking-wide font-bold">Weddings & Events</h2>
+      <div className="before:content[''] before:border-2 before:absolute before:w-[169px] before:border-[#E1B168] after:content-[''] after:border-2 after:w-[169px] after:border-[#E1B168] after:absolute">
+        <h2 className="py-1 tracking-wide uppercase">Weddings & Events</h2>
       </div>
 
       <div className="flex flex-col justify-center items-center gap-3 mt-11">
@@ -54,7 +54,7 @@ function Events() {
         <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, adipisci.</p>
       </div>
 
-      <div className='max-w-screen-xl h-[780px] w-full mx-auto py-16 px-4 relative group'>
+      <div className='max-w-screen-xl h-[680px] w-full mx-auto py-16 px-4 relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
@@ -80,52 +80,6 @@ function Events() {
       </div>
     </div>
       
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-      {/*      <div className="max-w-screen-xl mx-auto">
-   
-        <div>
-          <Image
-            src={slide1}
-            alt="Slide 1"
-            className="w-full h-auto"
-          />
-        </div>
-        <div>
-          <Image
-            src={slide2}
-            alt="Slide 2"
-            className="w-full h-auto"
-          />
-            </div>
-        <div>
-          <Image
-            src={slide3}
-            alt="Slide 3"
-            className="w-full h-auto"
-          />
-            </div>
-        <div>
-          <Image
-            src={slide4}
-            alt="Slide 4"
-            className="w-full h-auto"
-          />
-            </div> 
-    </div> */}
     </section>
   );
 }

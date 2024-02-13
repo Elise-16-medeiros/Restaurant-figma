@@ -12,7 +12,7 @@ function Vector() {
           <ul>
             <li>
             <Image
-            className="h-[45px] w-[45px] rounded-lg"
+            className="h-[45px] w-[45px]"
             src={Pin}
             alt="pin image"
           />
@@ -30,7 +30,7 @@ function Vector() {
           <ul>
              <li>
             <Image
-            className="h-[45px] w-[45px] rounded-lg"
+            className="h-[45px] w-[45px]"
             src={Clock}
             alt="pin image"
           />
@@ -48,7 +48,7 @@ function Vector() {
           <ul>
              <li>
             <Image
-            className="h-[45px] w-[45px] rounded-lg"
+            className="h-[45px] w-[45px]"
             src={Devices}
             alt="pin image"
           />

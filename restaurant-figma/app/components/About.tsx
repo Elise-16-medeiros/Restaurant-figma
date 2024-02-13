@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import Vector from "./Vector";
 import aboutImg from "@/public/image1.png";
 
@@ -36,11 +35,6 @@ function About() {
                 </p>
               </div>
             </div>
-           {/*  <div className="w-[230px] pt-10">
-              <Link className="link-custom-two" href="#">
-                more about us
-              </Link>
-            </div> */}
           </div>
         </div>
       </section>
